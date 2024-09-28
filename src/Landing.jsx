@@ -20,7 +20,7 @@ import Ring2 from './assets/r2.jpeg'
 import Ring3 from './assets/r3.jpeg'
 import Ring4 from './assets/r4.jpeg'
 import Earring from './assets/Earring.png'
-import Bracelet from './assets/Bracelet.webp'
+import Bracelet from './assets/bracelet.png'
 import Ring from './assets/ring.png'
 const Landing = () => {
   return (
