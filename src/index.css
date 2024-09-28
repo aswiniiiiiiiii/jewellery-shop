@@ -1,0 +1,196 @@
+*{
+  font-family: "Old Standard TT", serif;
+  margin: 0px;
+  padding: 0px;
+}
+#head{
+  gap: 2rem;
+  padding: 1rem;
+}
+.heading{
+  font-size: 2rem;
+  font-weight: 600;
+  width: 60%;
+}
+#head a {
+   text-decoration: none;
+  color: black;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.LandHead{
+  font-size: 4rem;
+
+}
+.Explore{
+  border: solid 1px black;
+  background-color: none;
+}
+.Explore:hover{
+  background-color: rgb(102, 25, 25);
+  color: white;
+}
+.Land{
+  background-color: #f2e8e6;
+}
+.top-offers{
+  position: relative;
+}
+.limited{
+  position: absolute;
+  top: 50%;
+  left: 23%;
+}
+.limited h3{
+  font-size: 3rem;
+  font-weight: 600;
+  color:white;
+}
+.limited a{
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: 600;
+  color:white;
+}
+.limited a:hover{
+  color: rgb(102, 25, 25);
+}
+.Trending{
+  position: absolute;
+  top: 50%;
+  left: 75%;
+}
+.Trending h3{
+  font-size: 3rem;
+  font-weight: 600;
+  color:white;
+}
+.Trending a{
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: 600;
+  color:white;
+}
+.Trending a:hover{
+  color: rgb(102, 25, 25);
+}
+.off p{
+  color: rgb(102, 25, 25);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.card-link{
+  text-decoration: none;
+  color: black;
+}
+.card:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* card hover  */
+.footer ul{
+  list-style: none;
+  line-height: 2;
+}
+.footer{
+  background-color: #f2e8e6;
+}
+.footer ul li {
+  font-size: 1.20rem;
+}
+.footer  p{
+  font-size: 1.20rem;
+
+}
+@media (min-width: 670px) and (max-width: 760px) {
+  .limited{
+    position: absolute;
+    top: 20%;
+    left: 32%;
+  }
+  .Trending{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+  }
+  .footer   {
+  text-align: center; 
+ }
+  .footer-sub {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+    }
+}
+
+
+@media (min-width: 560px) and (max-width: 670px) {
+  .limited{
+    position: absolute;
+    top: 20%;
+    left: 32%;
+  }
+  .Trending{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+  }
+  .footer   {
+    text-align: center; 
+   }
+   .footer-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+     }
+}
+
+@media (min-width: 480px) and (max-width: 560px) {
+  .limited{
+    position: absolute;
+    top: 20%;
+    left: 32%;
+  }
+  .Trending{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+  }
+  .footer   {
+    text-align: center; 
+   }
+   .footer-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+     }
+}
+
+@media (min-width: 300px) and (max-width: 480px) {
+  .LandHead{
+    font-size: 3rem;
+  
+  }
+  .limited{
+    position: absolute;
+    top: 20%;
+    left: 32%;
+  }
+  .Trending{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+  }
+  .footer   {
+    text-align: center; 
+   }
+   .footer-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+     }
+}

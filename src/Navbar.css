@@ -1,0 +1,106 @@
+/* Navbar.css */
+.navbar {
+    background-color: #fffcf9;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .menu-toggler {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-toggler {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .navbar-toggler-icon {
+    font-size: 2rem;
+    display: none;
+  }
+  
+  .close-btn {
+    font-size: 2rem;
+    color: #000;
+    display: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      display: block;
+    }
+    .navbar-toggler-icon{
+        display: block;
+    }
+    .close-btn {
+        font-size: 2rem;
+        color: #000;
+        display: block;
+      }
+    .navbar-links {
+      display: none;
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 400px;
+      background-color: #f8f9fa;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      transition: transform 0.3s ease-in-out;
+      transform: translateX(100%);
+    }
+  
+    .navbar-links.active {
+      display: flex;
+      transform: translateX(0);
+    }
+  
+    .nav-link {
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+  
+    .close-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1500;
+    }
+  }
+  
